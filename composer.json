@@ -1,0 +1,19 @@
+{
+    "name": "ngyuki/php-safe-proxy",
+    "type": "library",
+    "description": "php-safe-proxy",
+    "keywords": [],
+    "homepage": "https://github.com/ngyuki/php-safe-proxy",
+    "license": "MIT",
+    "authors": [
+        { "name": "ngyuki", "email": "ngyuki.ts@gmail.com" }
+    ],
+    "autoload": {
+        "psr-0": {
+            "ngyuki\\SafeProxy": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
