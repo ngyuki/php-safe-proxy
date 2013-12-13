@@ -13,7 +13,7 @@ class SafeProxyMockTest extends AbstractTestCase
      */
     function ok_()
     {
-        $proxy = $this->getMock(get_class(new SafeProxy), ['sprintf']);
+        $proxy = $this->getMock(get_class(new SafeProxy), array('sprintf'));
         $proxy->expects(any())->method('sprintf')->will(returnValue("abc"));
 
         /** @var $proxy SafeProxy */
